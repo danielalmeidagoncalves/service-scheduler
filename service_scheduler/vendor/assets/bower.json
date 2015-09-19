@@ -1,0 +1,10 @@
+{
+  "name": "dsl-generated dependencies",
+  "dependencies": {
+    "angular": "latest",
+    "semantic-ui-sass": "latest",
+    "angular-semantic-ui": "latest",
+    "lodash": "latest",
+    "requirejs": "latest"
+  }
+}
