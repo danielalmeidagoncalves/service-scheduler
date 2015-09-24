@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require angular/angular
 //= require semantic
+//= require oclazyload
 //= require_tree .

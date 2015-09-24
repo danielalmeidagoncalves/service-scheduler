@@ -5,6 +5,7 @@
     "semantic-ui-sass": "latest",
     "angular-semantic-ui": "latest",
     "lodash": "latest",
-    "requirejs": "latest"
+    "requirejs": "latest",
+    "oclazyload": "latest"
   }
 }
