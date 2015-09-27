@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get 'users/new'
 
+  devise_for :users
   root 'login#index'
   get 'login/index'
 

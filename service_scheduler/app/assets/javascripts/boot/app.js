@@ -1,4 +1,4 @@
-angular.module('ServiceScheduler', ['oc.lazyLoad']).config(['$ocLazyLoadProvider', function($ocLazyLoadProvider) {
+var serviceScheduler = angular.module('ServiceScheduler', ['oc.lazyLoad']).config(['$ocLazyLoadProvider', function($ocLazyLoadProvider) {
   $ocLazyLoadProvider.config({
      debug: true,
      events: true

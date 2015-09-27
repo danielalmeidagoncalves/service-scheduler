@@ -15,4 +15,7 @@
 //= require angular/angular
 //= require semantic
 //= require oclazyload
+//= require i18n
+//= require i18n.js
+//= require i18n/translations
 //= require_tree .
