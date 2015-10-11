@@ -32,30 +32,32 @@
     </div>
   </div>
   <div class="hidden transition" id="signup-form">
-    <div class="ui inverted segment" >
+  <form name="signup" class="ui form">
+    <div class="ui left aligned inverted segment" >
       <div class="ui inverted form">
-        <div class="ui form">
+
           <div class="field">
-            <label>Username</label>
-            <input placeholder="Username" type="text">
+            <label data-translator data-label-key="username"></label>
+            <input placeholder="Username" name="username" type="text">
           </div>
           <div class="field">
-            <label>Password</label>
-            <input placeholder="Password" type="password">
+            <label data-translator data-label-key="password"></label>
+            <input placeholder="Password" name="password" type="password">
           </div>
            <div class="field">
-            <label>Retype Password</label>
-            <input placeholder="Retype Password" type="password">
+            <label data-translator data-label-key="retype"></label>
+            <input placeholder="Retype Password" name="retypePassword" type="password">
           </div>
            <div class="field">
-            <div class="ui green submit button">Submit</div>
+            <div class="ui green submit button" data-translator ng-click="submit()" data-label-key="submit"></div>
           </div>
-        </div>
+
 
       </div>
     </div>
     <div class="ui message">
-      Already Sign Up? <a href="javascript:void(0);" ng-click="goback()">go back</a> and Sign In
+      <span data-translator data-label-key="already_sign_up"></span> <a href="javascript:void(0);" ng-click="goback()" data-translator data-label-key="go_back"></a> <span data-translator data-label-key="and_sign_in"></span>
     </div>
+    </form>
   </div>
 </div>

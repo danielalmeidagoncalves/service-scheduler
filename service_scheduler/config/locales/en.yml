@@ -27,3 +27,8 @@ en:
   login_text: "Log-in to your account"
   login: "Login"
   or: "Or"
+  retype: "Retype Password"
+  submit: "Submit"
+  already_sign_up: "Already sign up?"
+  go_back: "Go Back"
+  and_sign_in: "and Sign In"

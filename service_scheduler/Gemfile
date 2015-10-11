@@ -38,6 +38,8 @@ gem 'angular-rails-templates'
 gem 'js_assets'
 # i18n in angular
 gem "i18n-js"
+# rails routes to javascript thanks railsware!
+gem "js-routes"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
